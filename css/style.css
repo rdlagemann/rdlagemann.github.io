@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:200');
+
+.c1 {
+	color: #ECF0F1;
+	color: #1ABC9C;
+	color: #16A085;
+	color: #2C3E50;
+	color: #E74C3C;
+}
+
+html, body {
+	height: 100%;
+	color: #ECF0F1;
+	background-color: #ECF0F1;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../img/stardust.png);
+}
+
+body {
+	display: flex;
+}
+
+
+*{
+	color: #ECF0F1;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: #1ABC9C;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 3px solid transparent;
+}
+
+a:hover {
+	color: #1ABC9C;
+	border-bottom: 3px solid #E74C3C;
+	transition: all .3s ease-out;
+}
+
+::selection {
+  background: #2C3E50; /* WebKit/Blink Browsers */
+  color: #E74C3C;
+}
+
+
+
+.main-sec h1 {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 3px;
+	word-spacing: 1px;	
+	margin-bottom: 5px;	
+}
+
+.main-sec h1 span {
+	color: #16A085;
+}
+
+.main-sec {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.detail {
+	/*position: relative;
+	right: 100px;
+	top: 50px;
+	background-color: #E74C3C;
+	width: 100px;
+	height: 3px;
+	/*box-shadow: 30px 0 0 yellow;*/*/
+
+}
+
+.detail:before {
+	content: '';
+}
+
+.avatar {
+	width: 150px;
+	height: auto;
+	border-radius: 10px;
+	margin:20px;
+	border: 1px solid #ECF0F1;
+}
+
+.definition {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.skills {
+	color: yellow;
+}
+.contact span {
+	display: block;
+}
+
+.contact {
+	width: 100%;
+	font-size: 16px;
+	letter-spacing: 1px;
+	transform: scale(1, .9);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 80px 0 0 20px;
+}
+
