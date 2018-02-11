@@ -34,6 +34,7 @@ body, html {
 	height: 100%;
 	position: relative;
 	font-size: 18px;
+	overflow-x: hidden;
 }
 
 :not(.separator) {
@@ -168,14 +169,16 @@ a::after {
 }
 
 .separator{
+	position: absolute;
 	z-index: 1;
-	content:"";
+	content:" ";
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	left: 75%;
 	top: 0;
 	background-color: #2C3E50;
+	overflow: hidden;
 }
 
 @media only screen and (max-width: 780px) {
@@ -192,7 +195,8 @@ a::after {
 		right:0;
 	}
 
-	.profile-image {
+	.profile-image,
+	.separator {
 		display: none;
 	}
 
