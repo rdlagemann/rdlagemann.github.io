@@ -151,7 +151,6 @@ a::after {
 	max-height: 180px;
 	border-radius: 50%;
 	overflow: hidden;
-	/* box-shadow: 0 0 30px 2px #212121; */
 	box-shadow: 0 0 0 6px #16A085;
 }
 
