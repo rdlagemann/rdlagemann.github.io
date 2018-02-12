@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 .c1 {
 	color: #ECF0F1;
@@ -116,9 +116,6 @@ a::after {
 .subtitle {
 	flex-wrap: wrap;
 }
-.subtitle i {
-	font-family: 'Playfair Display', 'Times New Roman', Times, serif;
-}
 
 .subtitle p {
 	font-size: .7em;
@@ -165,7 +162,7 @@ a::after {
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-	transition: all .5s linear;	
+	transition: all .5s;	
 }
 
 .separator{
