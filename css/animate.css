@@ -72,20 +72,8 @@
   }
 }
 
-.fadeIn1 {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  animation-duration: 1s; 
-}
-
 .fadeIn3{
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   animation-duration: 3s; 
-}
-
-.fadeIn5{
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  animation-duration: 5s; 
 }
