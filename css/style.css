@@ -101,7 +101,7 @@ a::after {
 	-webkit-transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
 	-o-transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
 	transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
-	background: #E74C3C;
+	background: #f4d142;
 }
 
 .title {
@@ -154,13 +154,20 @@ a::after {
 	position: relative;
 	margin-right: 1.5em;	
 }
+svg .a {
+	fill: #f4d142;
+}
+
+svg path {
+	fill: #f4d142;	
+}
 
 .svg-icon {
 	width: 1.2em;
 	height: auto;
 	position: absolute;
 	bottom: 2px;
-	left: 0;	
+	left: 0;
 }
 
 .left-aligned{
