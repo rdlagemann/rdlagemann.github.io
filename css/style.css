@@ -37,10 +37,6 @@ body, html {
 	overflow-x: hidden;
 }
 
-:not(.separator) {
-	z-index: 10;
-}
-
 ::-moz-selection {
 	background-color: #2C3E50;
 	color: #1ABC9C;
@@ -189,23 +185,11 @@ svg path {
 }
 
 .profile-image img{
-	width: 45%;
+	width: 40%;
 	height: auto;
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
-.separator{
-	position: absolute;
-	z-index: 1;
-	content:" ";
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 73%;
-	top: 0;
-	background-color: #2C3E50;
-	overflow-x: hidden;
-}
 
 @media only screen and (max-width: 780px) {
 	html, body {
@@ -215,8 +199,7 @@ svg path {
 }
 
 @media only screen and (max-width: 600px) {
-	.profile-image,
-	.separator {
+	.profile-image {
 		display: none;
 	}
 
